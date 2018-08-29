@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-08-29 00:30+0800\n"
+"POT-Creation-Date: 2018-08-29 14:33+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -124,7 +124,8 @@ msgctxt "detail_transition_recognizing"
 msgid "Recognizing…"
 msgstr ""
 
-#. Dialogue: strings displayed in the dialogues
+#. Dialogue: strings displayed in the dialogues which inform users about a
+#. task, e.g. dialogue title, content and action
 msgctxt "dialogue_collecitioninfo_title_info"
 msgid "Collection info"
 msgstr ""
@@ -382,47 +383,8 @@ msgctxt "about_list_privacy"
 msgid "Privacy Notice"
 msgstr ""
 
-#. Onboarding: strings to onboard users to grant permissions,     Refer to UX
-#. spec 7.1:
-#. https://mozilla.invisionapp.com/share/24N3MMQB986#/310133929_7-1_Onboarding
-#. Parameter %1$s is the app name, i.e. Screenshot Go
-#, c-format
-msgctxt "onboarding_storage_title_welcome"
-msgid "Welcome to %1$s"
-msgstr ""
-
-msgctxt "onboarding_storage_content_permission"
-msgid ""
-"We need your permission to load your current screenshots from Gallery to "
-"do the magics."
-msgstr ""
-
-msgctxt "onboarding_storage_action_confirm"
-msgid "Let’s load it!"
-msgstr ""
-
 msgctxt "onboarding_transition_loading"
 msgid "Loading"
-msgstr ""
-
-#. Overlay permission prompt: strings to onboard users to grant permissions
-msgctxt "onboarding_fab_title_fab"
-msgid "Easiest Way to Screenshot"
-msgstr ""
-
-msgctxt "onboarding_fab_content_permission"
-msgid ""
-"We need some permissions to let you take screenshots with a floating "
-"screenshot button."
-msgstr ""
-
-#. String to allow users to dismiss the onboarding panel
-msgctxt "onboarding_fab_action_later"
-msgid "Later"
-msgstr ""
-
-msgctxt "onboarding_fab_action_grant"
-msgid "Go to grant page"
 msgstr ""
 
 #. Onboarding: strings to inform users when keeping denying permission
@@ -451,30 +413,3 @@ msgstr ""
 msgctxt "onboarding_rareerror_action_goto"
 msgid "Go to permission"
 msgstr ""
-
-#. Onboarding: strings to inform users that the search feature is WIP,
-#. Refer to UX spec 7.3:
-#. https://mozilla.invisionapp.com/share/24N3MMQB986#/310133930_7-3_Other_Oborading
-msgctxt "onboarding_search_title_soon"
-msgid "Search feature is coming soon"
-msgstr ""
-
-msgctxt "onboarding_search_content_survey"
-msgid ""
-"We’re working hard to offer this feature as soon as possible. You can be "
-"the first one trying and help us improve the feature."
-msgstr ""
-
-msgctxt "onboarding_search_action_agree"
-msgid "OK, I’m in"
-msgstr ""
-
-msgctxt "onboarding_search_action_disagree"
-msgid "No, thanks"
-msgstr ""
-
-#. Auto-grant overlay permission prompt
-msgctxt "onboarding_autogrant_overlay_title"
-msgid "Give the screenshot button a try to see what’ll happen"
-msgstr ""
-
