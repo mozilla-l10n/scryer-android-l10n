@@ -1,0 +1,415 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-08-29 14:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#. Label used for buttons to create new collection, e.g. in dialogs
+msgctxt "action_create"
+msgid "Create new"
+msgstr ""
+
+#. Label used for buttons to delete items, e.g. in dialogs
+msgctxt "action_delete"
+msgid "Delete"
+msgstr ""
+
+#. Label used for title in screenshot info dialogue, but for action in menu
+msgctxt "info_info"
+msgid "Screenshot info"
+msgstr ""
+
+#. Notification: strings displayed on the notification to perform various
+#. actions
+msgctxt "notification_action_capture"
+msgid "Tap to take screenshot"
+msgstr ""
+
+msgctxt "notification_action_open"
+msgid "Open app"
+msgstr ""
+
+msgctxt "notification_action_stop"
+msgid "Stop"
+msgstr ""
+
+msgctxt "notification_action_collect"
+msgid "Open app to collect screenshots"
+msgstr ""
+
+#. Sorting panel: strings displayed on the sorting panel to help users
+#. categorize screenshots,      Refer to UX spec 1.1:
+#. https://mozilla.invisionapp.com/share/24N3MMQB986#/310133909_1-1_Key_Flow_Add_To_Collection
+msgctxt "sorting_title_addto"
+msgid "Add to"
+msgstr ""
+
+#. String displayed to skip the current screenshot and move on to the next one
+msgctxt "multisorting_action_next"
+msgid "Next"
+msgstr ""
+
+#. String displayed on the title of sorting panel and the screenshot will be
+#. categorized to a collection
+msgctxt "sorting_title_move"
+msgid "Move to"
+msgstr ""
+
+#. Strings displayed to allow users to create collection name
+msgctxt "dialogue_title_collection"
+msgid "Collection name"
+msgstr ""
+
+#. String displayed as a hint to ask users to type a name
+msgctxt "dialogue_inputfield_hint"
+msgid "Give me a name"
+msgstr ""
+
+#. String displayed to create a new collection and add the screenshot into it
+msgctxt "dialogue_action_add"
+msgid "Add"
+msgstr ""
+
+#. Home view: strings displayed on the home view,     Refer to UX spec 2.1:
+#. https://mozilla.invisionapp.com/share/24N3MMQB986#/310133914_2-1_Navigation
+msgctxt "home_action_search"
+msgid "Search"
+msgstr ""
+
+msgctxt "menu_home_action_settings"
+msgid "Settings"
+msgstr ""
+
+msgctxt "home_separator_access"
+msgid "Quick access"
+msgstr ""
+
+msgctxt "home_action_more"
+msgid "View all"
+msgstr ""
+
+msgctxt "home_separator_collection"
+msgid "Collections"
+msgstr ""
+
+#. String displayed to allow users to enter a collection with all unsorted
+#. screenshots
+msgctxt "home_action_unsorted"
+msgid "Unsorted"
+msgstr ""
+
+#. Collection view: string displayed on the collection view. Parameter %1$d is
+#. the quantity of screenshot files, i.e. 100 shots
+#, c-format
+msgctxt "collection_separator_shots"
+msgid "%1$d shots"
+msgstr ""
+
+#. Detail view: string displayed on the detail view when recognizing the text
+#. on the screenshot
+msgctxt "detail_transition_recognizing"
+msgid "Recognizing…"
+msgstr ""
+
+#. Dialogue: strings displayed in the dialogues which inform users about a
+#. task, e.g. dialogue title, content and action
+msgctxt "dialogue_collecitioninfo_title_info"
+msgid "Collection info"
+msgstr ""
+
+#. String displayed as a tag to accomodate the name attribute, e.g. Name:
+#. shopping
+msgctxt "dialogue_list_name"
+msgid "Name"
+msgstr ""
+
+msgctxt "dialogue_collecitioninfo_list_shot"
+msgid "Total screenshots"
+msgstr ""
+
+msgctxt "dialogue_collecitioninfo_list_storage"
+msgid "Storage used"
+msgstr ""
+
+msgctxt "dialogue_shotinfo_list_size"
+msgid "Size"
+msgstr ""
+
+msgctxt "dialogue_list_edit"
+msgid "Last edit"
+msgstr ""
+
+msgctxt "dialogue_deletecollection_title_delete"
+msgid "Delete collection?"
+msgstr ""
+
+msgctxt "dialogue_deleteshot_title_delete"
+msgid "Delete screenshot?"
+msgstr ""
+
+msgctxt "dialogue_delete_content_cantundo"
+msgid "Are you sure? This action cannot be undone."
+msgstr ""
+
+#. Parameter %1$d is the quantity of screenshot files, i.e. 100 screenshots
+#, c-format
+msgctxt "dialogue_deletecollection_content_shots"
+msgid "%1$d screenshots"
+msgstr ""
+
+msgctxt "dialogue_rename_title_rename"
+msgid "Rename collection"
+msgstr ""
+
+msgctxt "dialogue_rename_error_duplicate"
+msgid "There is already a collection with this name"
+msgstr ""
+
+msgctxt "dialogue_rename_error_maximum"
+msgid "20 characters maximum"
+msgstr ""
+
+#. Dialogue: Strings displayed when users skip multi-sorting panel,     Refer
+#. to UX spec 2.4_E:
+#. https://mozilla.invisionapp.com/share/24N3MMQB986#/310133917_2-4_Detect_New_Screenshots
+msgctxt "dialogue_skipsorting_title_skip"
+msgid "Skip the rest?"
+msgstr ""
+
+msgctxt "dialogue_skipsorting_content_moveto"
+msgid "Skip remaining screenshots and move to “Unsorted?”"
+msgstr ""
+
+#. Parameter %1$d is the quantity of screenshot files, i.e. 100 remaining
+#, c-format
+msgctxt "dialogue_skipsorting_content_count"
+msgid "%1$d remaining"
+msgstr ""
+
+#. String to allow users to skip sorting the remaining screenshots
+msgctxt "dialogue_skipsorting_action_skip"
+msgid "Skip all"
+msgstr ""
+
+#. Menu: strings displayed when triggering the overflow menu in the top-right
+#. corner of each view
+msgctxt "menu_title_action"
+msgid "Actions"
+msgstr ""
+
+msgctxt "menu_shot_action_move"
+msgid "Move to…"
+msgstr ""
+
+msgctxt "menu_action_rename"
+msgid "Rename"
+msgstr ""
+
+msgctxt "menu_collection_action_info"
+msgid "Info"
+msgstr ""
+
+#. Strings displayed to perform actions when selecting text on the screenshot,
+#. Refer to UX spec 4.2_G&I:
+#. https://mozilla.invisionapp.com/share/24N3MMQB986#/310133922_4-2_Image_-_Text_Mode
+msgctxt "menu_ocr_action_web"
+msgid "Web search"
+msgstr ""
+
+msgctxt "menu_ocr_action_copy"
+msgid "Copy"
+msgstr ""
+
+msgctxt "menu_action_selectall"
+msgid "Select all"
+msgstr ""
+
+msgctxt "menu_action_share"
+msgid "Share"
+msgstr ""
+
+#. Bottom sheet: strings displayed on the reminder panel
+msgctxt "sheet_enable_title_enable"
+msgid "Enable screenshot service?"
+msgstr ""
+
+msgctxt "sheet_enable_content_enable"
+msgid "You won’t be able to take screenshots unless this is enabled"
+msgstr ""
+
+#. String displayed to allow users to enable the screenshot service
+msgctxt "sheet_enable_action_enable"
+msgid "Enabled"
+msgstr ""
+
+msgctxt "sheet_unsorted_title_unsorted"
+msgid "Unsorted screenshots"
+msgstr ""
+
+#. Parameter %1$d is the quantity of screenshot files, i.e. 100 unsorted
+#. screenshots. Sort them now?
+#, c-format
+msgctxt "sheet_unsorted_content_shots"
+msgid "%1$d unsorted screenshots. Sort them now?"
+msgstr ""
+
+msgctxt "sheet_box_ask"
+msgid "Don’t ask again"
+msgstr ""
+
+msgctxt "sheet_unsorted_action_sort"
+msgid "Sort"
+msgstr ""
+
+msgctxt "sheet_action_no"
+msgid "No thanks"
+msgstr ""
+
+#. Snackbar: strings to provide confirmations for user’s actions
+msgctxt "snackbar_disable"
+msgid "Screenshot service disabled"
+msgstr ""
+
+msgctxt "snackbar_enable"
+msgid "Screenshot service enabled"
+msgstr ""
+
+#. Parameter %1$s is the collection name user defined, i.e. Shopping
+#, c-format
+msgctxt "snackbar_addto"
+msgid "Added to %1$s"
+msgstr ""
+
+msgctxt "snackbar_copied"
+msgid "Copied"
+msgstr ""
+
+#. Settings: strings displayed in the settings page,     Refer to UX spec 6.1:
+#. https://mozilla.invisionapp.com/share/24N3MMQB986#/310133927_6-1_Settings
+msgctxt "settings_list_capture"
+msgid "Enable screenshot service"
+msgstr ""
+
+msgctxt "settings_detail_capture"
+msgid ""
+"Allows you to take a screenshot with one tap. Works with whatever is on "
+"your screen"
+msgstr ""
+
+msgctxt "settings_list_fab"
+msgid "Enable screenshot button"
+msgstr ""
+
+msgctxt "settings_list_sorting"
+msgid "Prompt to save"
+msgstr ""
+
+msgctxt "settings_detail_sorting"
+msgid "Always prompt to add screenshot to a collection"
+msgstr ""
+
+msgctxt "settings_list_usagedata"
+msgid "Send usage data"
+msgstr ""
+
+#. Parameter %1$s is the app name, i.e. Screenshot Go
+#, c-format
+msgctxt "settings_detail_mozilla"
+msgid ""
+"Mozilla strives to collect only what we need to provide and improve %1$s "
+"for everyone"
+msgstr ""
+
+msgctxt "settings_action_learnmore"
+msgid "Learn more"
+msgstr ""
+
+msgctxt "settings_list_feedback"
+msgid "Give feedback"
+msgstr ""
+
+msgctxt "feedback_title_lovefeedback"
+msgid "We love feedback!"
+msgstr ""
+
+msgctxt "feedback_detail_letusknow"
+msgid "Let us know what you think."
+msgstr ""
+
+msgctxt "feedback_action_rate"
+msgid "Rate on Google Play"
+msgstr ""
+
+msgctxt "feedback_action_feedback"
+msgid "Give us feedback"
+msgstr ""
+
+msgctxt "settings_list_share"
+msgid "Share with friends"
+msgstr ""
+
+msgctxt "settings_list_about"
+msgid "About"
+msgstr ""
+
+#. Parameter %1$s is version code of the app, i.e. 1.0.0
+#, c-format
+msgctxt "about_content_version"
+msgid "Version %1$s"
+msgstr ""
+
+msgctxt "about_list_support"
+msgid "Support"
+msgstr ""
+
+msgctxt "about_list_right"
+msgid "Your Rights/ Licenses"
+msgstr ""
+
+msgctxt "about_list_privacy"
+msgid "Privacy Notice"
+msgstr ""
+
+msgctxt "onboarding_transition_loading"
+msgid "Loading"
+msgstr ""
+
+#. Onboarding: strings to inform users when keeping denying permission
+msgctxt "onboarding_error_title_wrong"
+msgid "Oops! Something’s wrong."
+msgstr ""
+
+#. Parameter %1$s is the app name, i.e. Screenshot Go
+#, c-format
+msgctxt "onboarding_error_content_permission"
+msgid "%1$s needs this permission to work correctly."
+msgstr ""
+
+msgctxt "onboarding_error_action_allow"
+msgid "Allow permission"
+msgstr ""
+
+#. Parameter %1$s is the app name, i.e. Screenshot Go
+#, c-format
+msgctxt "onboarding_rareerror_content_permission"
+msgid ""
+"%1$s needs permission to access your phone’s storage. Please find "
+"Permission to turn on Storage."
+msgstr ""
+
+msgctxt "onboarding_rareerror_action_goto"
+msgid "Go to permission"
+msgstr ""
