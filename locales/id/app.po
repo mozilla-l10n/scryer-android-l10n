@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-08-29 14:33+0800\n"
-"PO-Revision-Date: 2018-09-03 09:04+0000\n"
+"PO-Revision-Date: 2018-09-03 14:16+0000\n"
 "Last-Translator: Ringgo <armen.ringgo@yahoo.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -58,7 +58,7 @@ msgstr ""
 #. https://mozilla.invisionapp.com/share/24N3MMQB986#/310133909_1-1_Key_Flow_Add_To_Collection
 msgctxt "sorting_title_addto"
 msgid "Add to"
-msgstr ""
+msgstr "Tambahkan ke"
 
 #. String displayed to skip the current screenshot and move on to the next one
 msgctxt "multisorting_action_next"
@@ -69,7 +69,7 @@ msgstr ""
 #. categorized to a collection
 msgctxt "sorting_title_move"
 msgid "Move to"
-msgstr ""
+msgstr "Pindahkan ke"
 
 #. Strings displayed to allow users to create collection name
 msgctxt "dialogue_title_collection"
@@ -79,7 +79,7 @@ msgstr "Nama koleksi"
 #. String displayed as a hint to ask users to type a name
 msgctxt "dialogue_inputfield_hint"
 msgid "Give me a name"
-msgstr ""
+msgstr "Beri nama"
 
 #. String displayed to create a new collection and add the screenshot into it
 msgctxt "dialogue_action_add"
@@ -94,11 +94,11 @@ msgstr ""
 
 msgctxt "menu_home_action_settings"
 msgid "Settings"
-msgstr ""
+msgstr "Setelan"
 
 msgctxt "home_separator_access"
 msgid "Quick access"
-msgstr ""
+msgstr "Akses cepat"
 
 msgctxt "home_action_more"
 msgid "View all"
