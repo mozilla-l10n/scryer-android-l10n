@@ -1,24 +1,23 @@
-# Translations template for PROJECT.
+# Indonesian translations for PROJECT.
 # Copyright (C) 2018 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-08-29 14:33+0800\n"
+"POT-Creation-Date: 2018-09-12 22:44+0800\n"
 "PO-Revision-Date: 2018-09-11 15:04+0000\n"
 "Last-Translator: Fauzan Alfi <fauzanalfi@mozilla.web.id>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
+"Language-Team: id <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=(0)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Pontoon\n"
 
 #. Label used for buttons to create new collection, e.g. in dialogs
 msgctxt "action_create"
@@ -35,6 +34,11 @@ msgctxt "info_info"
 msgid "Screenshot info"
 msgstr "Info tangkapan layar"
 
+#. Label used when no content
+msgctxt "title_noshots"
+msgid "No screenshots yet!"
+msgstr ""
+
 #. Notification: strings displayed on the notification to perform various
 #. actions
 msgctxt "notification_action_capture"
@@ -49,8 +53,9 @@ msgctxt "notification_action_stop"
 msgid "Stop"
 msgstr "Hentikan"
 
+#, fuzzy
 msgctxt "notification_action_collect"
-msgid "Open app to collect screenshots"
+msgid "Tap to sort screenshots"
 msgstr "Buka aplikasi untuk mengumpulkan tangkapan layar"
 
 #. Sorting panel: strings displayed on the sorting panel to help users
@@ -70,6 +75,27 @@ msgstr "Selanjutnya"
 msgctxt "sorting_title_move"
 msgid "Move to"
 msgstr "Pindahkan ke"
+
+#. Strings displayed to suggest default collections for users to sort
+msgctxt "sorting_suggestion_1st"
+msgid "Shopping"
+msgstr ""
+
+msgctxt "sorting_suggestion_2nd"
+msgid "Finance & Banking"
+msgstr ""
+
+msgctxt "sorting_suggestion_3rd"
+msgid "News & Article"
+msgstr ""
+
+msgctxt "sorting_suggestion_4th"
+msgid "Chat history"
+msgstr ""
+
+msgctxt "sorting_suggestion_5th"
+msgid "Event & Activity"
+msgstr ""
 
 #. Strings displayed to allow users to create collection name
 msgctxt "dialogue_title_collection"
@@ -129,6 +155,7 @@ msgstr "Mengenali…"
 
 #. Dialogue: strings displayed in the dialogues which inform users about a
 #. task, e.g. dialogue title, content and action
+#. This string also serves as menu action in collection view
 msgctxt "dialogue_collecitioninfo_title_info"
 msgid "Collection info"
 msgstr "Info koleksi"
@@ -221,10 +248,6 @@ msgctxt "menu_action_rename"
 msgid "Rename"
 msgstr "Ubah nama"
 
-msgctxt "menu_collection_action_info"
-msgid "Info"
-msgstr "Info"
-
 #. Strings displayed to perform actions when selecting text on the screenshot,
 #. Refer to UX spec 4.2_G&I:
 #. https://mozilla.invisionapp.com/share/24N3MMQB986#/310133922_4-2_Image_-_Text_Mode
@@ -245,17 +268,20 @@ msgid "Share"
 msgstr "Bagikan"
 
 #. Bottom sheet: strings displayed on the reminder panel
+#, fuzzy
 msgctxt "sheet_enable_title_enable"
-msgid "Enable screenshot service?"
+msgid "Enable to take screenshots?"
 msgstr "Aktifkan layanan tangkapan layar?"
 
+#, fuzzy
 msgctxt "sheet_enable_content_enable"
-msgid "You won’t be able to take screenshots unless this is enabled"
+msgid "You won’t be able to take screenshots with one tap unless this is enabled."
 msgstr "Anda tidak dapat menangkap layar kecuali ini diaktifkan"
 
 #. String displayed to allow users to enable the screenshot service
+#, fuzzy
 msgctxt "sheet_enable_action_enable"
-msgid "Enabled"
+msgid "Enable"
 msgstr "Aktif"
 
 msgctxt "sheet_unsorted_title_unsorted"
@@ -282,12 +308,14 @@ msgid "No thanks"
 msgstr "Tidak, terima kasih"
 
 #. Snackbar: strings to provide confirmations for user’s actions
+#, fuzzy
 msgctxt "snackbar_disable"
-msgid "Screenshot service disabled"
+msgid "Screenshot feature disabled"
 msgstr "Layanan tangkapan layar dinonaktifkan"
 
+#, fuzzy
 msgctxt "snackbar_enable"
-msgid "Screenshot service enabled"
+msgid "Screenshot feature enabled"
 msgstr "Layanan tangkapan layar diaktifkan"
 
 #. Parameter %1$s is the collection name user defined, i.e. Shopping
@@ -302,16 +330,29 @@ msgstr "Disalin"
 
 #. Settings: strings displayed in the settings page,     Refer to UX spec 6.1:
 #. https://mozilla.invisionapp.com/share/24N3MMQB986#/310133927_6-1_Settings
+#. the string displayed to inform users this switch needs to be enabled to
+#. take screenshots. If enabled, the system reveals two more options for users
+#. to customize
+#, fuzzy
 msgctxt "settings_list_capture"
-msgid "Enable screenshot service"
+msgid "Enable to take screenshots"
 msgstr "Aktifkan layanan tangkapan layar"
 
+#. The string changes to serve as description of settings_list_fab
+#, fuzzy
 msgctxt "settings_detail_capture"
-msgid "Allows you to take a screenshot with one tap. Works with whatever is on your screen"
-msgstr "Memungkinkan Anda membuat tangkapan layar dengan sekali ketuk. Bekerja dengan apa pun yang ada di layar Anda"
+msgid ""
+"Allows you to take a screenshot with one tap. Works with whatever is on "
+"your screen."
+msgstr ""
+"Memungkinkan Anda membuat tangkapan layar dengan sekali ketuk. Bekerja "
+"dengan apa pun yang ada di layar Anda"
 
+#. The string displayed to enable a floating button to take screenshot, and
+#. the placeholder %1$s is "GO" from the product name
+#, c-format, fuzzy
 msgctxt "settings_list_fab"
-msgid "Enable screenshot button"
+msgid "Enable %1$s button"
 msgstr "Aktifkan tombol tangkapan layar"
 
 msgctxt "settings_list_sorting"
@@ -326,11 +367,15 @@ msgctxt "settings_list_usagedata"
 msgid "Send usage data"
 msgstr "Kirim data penggunaan"
 
-#. Parameter %1$s is the app name, i.e. Screenshot Go
-#, c-format
+#. Parameter %1$s is the app name, i.e. Firefox ScreenshotGo
+#, c-format, fuzzy
 msgctxt "settings_detail_mozilla"
-msgid "Mozilla strives to collect only what we need to provide and improve %1$s for everyone"
-msgstr "Mozilla berusaha untuk mengumpulkan hanya apa yang kami perlu untuk sediakan dan meningkatkan %1$s untuk setiap orang"
+msgid ""
+"Mozilla strives to collect only what we need to provide and improve %1$s "
+"for everyone."
+msgstr ""
+"Mozilla berusaha untuk mengumpulkan hanya apa yang kami perlu untuk "
+"sediakan dan meningkatkan %1$s untuk setiap orang"
 
 msgctxt "settings_action_learnmore"
 msgid "Learn more"
@@ -360,6 +405,15 @@ msgctxt "settings_list_share"
 msgid "Share with friends"
 msgstr "Bagikan dengan teman"
 
+#. The strings displys when users share the app with friends. %1$s is the app
+#. name i.e. Firefox ScreenshotGo, and %2$s is the Google Play url
+#, c-format
+msgctxt "share_intro"
+msgid ""
+"Hey, check out this new app that helps you organize and find your "
+"screenshots easily. It’s called %1$s. %2$s"
+msgstr ""
+
 msgctxt "settings_list_about"
 msgid "About"
 msgstr "Tentang"
@@ -374,24 +428,83 @@ msgctxt "about_list_support"
 msgid "Support"
 msgstr "Dukungan"
 
+#, fuzzy
 msgctxt "about_list_right"
-msgid "Your Rights/ Licenses"
+msgid "Your Rights"
 msgstr "Hak Anda/ Lisensi"
 
 msgctxt "about_list_privacy"
 msgid "Privacy Notice"
 msgstr "Kebijakan Privasi"
 
+#. Onboarding: strings to onboard users to grant permissions,     Refer to UX
+#. spec 7.1:
+#. https://mozilla.invisionapp.com/share/24N3MMQB986#/310133929_7-1_Onboarding
+#. Parameter %1$s is the app name, i.e. Firefox ScreenshotGo
+#, c-format
+msgctxt "onboarding_storage_title_welcome"
+msgid "Welcome to %1$s"
+msgstr ""
+
+msgctxt "onboarding_storage_content_permission"
+msgid ""
+"To help you organize and find your screenshots better, we’ll need your "
+"permission to access your storage."
+msgstr ""
+
+#. The string displays if the system autogrants storage permission. Parameter
+#. %1$s is the app name, i.e. Firefox ScreenshotGo
+#, c-format
+msgctxt "onboarding_storage_content_autogrant"
+msgid "%1$s helps you organize and find your screenshots better."
+msgstr ""
+
 msgctxt "onboarding_transition_loading"
 msgid "Loading"
 msgstr "Memuat"
 
+#. Overlay permission prompt: strings to onboard users to grant permissions,
+#. and the placeholder %1$s is "GO" from the product name
+#, c-format
+msgctxt "onboarding_fab_title_fab"
+msgid "Get the %1$s button"
+msgstr ""
+
+#. The placeholder %1$s is "GO" from the product name
+#, c-format
+msgctxt "onboarding_fab_content_permission"
+msgid ""
+"The %1$s button lets you take and organize your screenshots anytime, "
+"anywhere. We’ll need your permission to enable it."
+msgstr ""
+
+#. String to allow users to dismiss the onboarding panel
+msgctxt "onboarding_fab_action_later"
+msgid "Later"
+msgstr ""
+
+msgctxt "onboarding_fab_action_grant"
+msgid "Grant Permission"
+msgstr ""
+
+#. Auto-grant overlay permission prompt. The placeholder %1$s is "GO" from the
+#. product name
+#, c-format
+msgctxt "onboarding_autogrant_overlay_title"
+msgid "Use the %1$s button to take and organize screenshots anytime, anywhere."
+msgstr ""
+
+msgctxt "onboarding_autogrant_overlay_gotit"
+msgid "Got it"
+msgstr ""
+
 #. Onboarding: strings to inform users when keeping denying permission
+#, fuzzy
 msgctxt "onboarding_error_title_wrong"
-msgid "Oops! Something’s wrong."
+msgid "Oops! Something’s wrong"
 msgstr "Ups! Ada masalah."
 
-#. Parameter %1$s is the app name, i.e. Screenshot Go
+#. Parameter %1$s is the app name, i.e. Firefox ScreenshotGo
 #, c-format
 msgctxt "onboarding_error_content_permission"
 msgid "%1$s needs this permission to work correctly."
@@ -401,12 +514,44 @@ msgctxt "onboarding_error_action_allow"
 msgid "Allow permission"
 msgstr "Izinkan"
 
-#. Parameter %1$s is the app name, i.e. Screenshot Go
+#. Parameter %1$s is the app name, i.e. Firefox ScreenshotGo
 #, c-format
 msgctxt "onboarding_rareerror_content_permission"
-msgid "%1$s needs permission to access your phone’s storage. Please find Permission to turn on Storage."
-msgstr "%1$s membutuhkan izin untuk mengakses penyimpanan ponsel Anda. Temukan di bagian Izin untuk mengaktifkan Penyimpanan."
+msgid ""
+"%1$s needs permission to access your phone’s storage. Please find "
+"Permission to turn on Storage."
+msgstr ""
+"%1$s membutuhkan izin untuk mengakses penyimpanan ponsel Anda. Temukan di"
+" bagian Izin untuk mengaktifkan Penyimpanan."
 
 msgctxt "onboarding_rareerror_action_goto"
 msgid "Go to permission"
 msgstr "Ke bagian Izin"
+
+#. Onboarding: strings to inform users that the search feature is WIP,
+#. Refer to UX spec 7.3:
+#. https://mozilla.invisionapp.com/share/24N3MMQB986#/310133930_7-3_Other_Oborading
+msgctxt "onboarding_search_title_soon"
+msgid "Search is coming soon!"
+msgstr ""
+
+#. The string displayed to describe the survey
+msgctxt "onboarding_search_content_survey"
+msgid ""
+"We’re working on a search feature to help you find your screenshots even "
+"faster. Interested?"
+msgstr ""
+
+msgctxt "onboarding_search_action_agree"
+msgid "Yes please"
+msgstr ""
+
+#. The string should represent an informal variant of no
+msgctxt "onboarding_search_action_disagree"
+msgid "Nope"
+msgstr ""
+
+msgctxt "onboarding_search_content_feedback"
+msgid "Thanks for your feedback!"
+msgstr ""
+
