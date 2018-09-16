@@ -2,22 +2,23 @@
 # Copyright (C) 2018 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-09-12 22:44+0800\n"
-"PO-Revision-Date: 2018-09-11 15:04+0000\n"
+"PO-Revision-Date: 2018-09-16 02:52+0000\n"
 "Last-Translator: Fauzan Alfi <fauzanalfi@mozilla.web.id>\n"
-"Language: id\n"
 "Language-Team: id <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=(0)\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Pontoon\n"
 
 #. Label used for buttons to create new collection, e.g. in dialogs
 msgctxt "action_create"
@@ -37,7 +38,7 @@ msgstr "Info tangkapan layar"
 #. Label used when no content
 msgctxt "title_noshots"
 msgid "No screenshots yet!"
-msgstr ""
+msgstr "Belum ada tangkapan layar!"
 
 #. Notification: strings displayed on the notification to perform various
 #. actions
@@ -53,10 +54,9 @@ msgctxt "notification_action_stop"
 msgid "Stop"
 msgstr "Hentikan"
 
-#, fuzzy
 msgctxt "notification_action_collect"
 msgid "Tap to sort screenshots"
-msgstr "Buka aplikasi untuk mengumpulkan tangkapan layar"
+msgstr "Ketuk untuk mengelompokkan tangkapan layar"
 
 #. Sorting panel: strings displayed on the sorting panel to help users
 #. categorize screenshots,      Refer to UX spec 1.1:
@@ -79,15 +79,15 @@ msgstr "Pindahkan ke"
 #. Strings displayed to suggest default collections for users to sort
 msgctxt "sorting_suggestion_1st"
 msgid "Shopping"
-msgstr ""
+msgstr "Belanja"
 
 msgctxt "sorting_suggestion_2nd"
 msgid "Finance & Banking"
-msgstr ""
+msgstr "Finansial & Perbankan"
 
 msgctxt "sorting_suggestion_3rd"
 msgid "News & Article"
-msgstr ""
+msgstr "Berita & Artikel"
 
 msgctxt "sorting_suggestion_4th"
 msgid "Chat history"
@@ -268,18 +268,15 @@ msgid "Share"
 msgstr "Bagikan"
 
 #. Bottom sheet: strings displayed on the reminder panel
-#, fuzzy
 msgctxt "sheet_enable_title_enable"
 msgid "Enable to take screenshots?"
-msgstr "Aktifkan layanan tangkapan layar?"
+msgstr "Aktifkan untuk menangkap layar?"
 
-#, fuzzy
 msgctxt "sheet_enable_content_enable"
 msgid "You won’t be able to take screenshots with one tap unless this is enabled."
-msgstr "Anda tidak dapat menangkap layar kecuali ini diaktifkan"
+msgstr "Anda tidak dapat menangkap layar dengan sekali ketuk kecuali ini diaktifkan."
 
 #. String displayed to allow users to enable the screenshot service
-#, fuzzy
 msgctxt "sheet_enable_action_enable"
 msgid "Enable"
 msgstr "Aktif"
@@ -308,12 +305,10 @@ msgid "No thanks"
 msgstr "Tidak, terima kasih"
 
 #. Snackbar: strings to provide confirmations for user’s actions
-#, fuzzy
 msgctxt "snackbar_disable"
 msgid "Screenshot feature disabled"
 msgstr "Layanan tangkapan layar dinonaktifkan"
 
-#, fuzzy
 msgctxt "snackbar_enable"
 msgid "Screenshot feature enabled"
 msgstr "Layanan tangkapan layar diaktifkan"
@@ -333,27 +328,21 @@ msgstr "Disalin"
 #. the string displayed to inform users this switch needs to be enabled to
 #. take screenshots. If enabled, the system reveals two more options for users
 #. to customize
-#, fuzzy
 msgctxt "settings_list_capture"
 msgid "Enable to take screenshots"
-msgstr "Aktifkan layanan tangkapan layar"
+msgstr "Aktifkan untuk menangkap layar"
 
 #. The string changes to serve as description of settings_list_fab
-#, fuzzy
 msgctxt "settings_detail_capture"
-msgid ""
-"Allows you to take a screenshot with one tap. Works with whatever is on "
-"your screen."
-msgstr ""
-"Memungkinkan Anda membuat tangkapan layar dengan sekali ketuk. Bekerja "
-"dengan apa pun yang ada di layar Anda"
+msgid "Allows you to take a screenshot with one tap. Works with whatever is on your screen."
+msgstr "Memungkinkan Anda menangkap layar dengan sekali ketuk. Bekerja dengan apa pun yang ada di layar Anda."
 
 #. The string displayed to enable a floating button to take screenshot, and
 #. the placeholder %1$s is "GO" from the product name
-#, c-format, fuzzy
+#, c-format
 msgctxt "settings_list_fab"
 msgid "Enable %1$s button"
-msgstr "Aktifkan tombol tangkapan layar"
+msgstr "Aktifkan tombol %1$s"
 
 msgctxt "settings_list_sorting"
 msgid "Prompt to save"
@@ -368,14 +357,10 @@ msgid "Send usage data"
 msgstr "Kirim data penggunaan"
 
 #. Parameter %1$s is the app name, i.e. Firefox ScreenshotGo
-#, c-format, fuzzy
+#, c-format
 msgctxt "settings_detail_mozilla"
-msgid ""
-"Mozilla strives to collect only what we need to provide and improve %1$s "
-"for everyone."
-msgstr ""
-"Mozilla berusaha untuk mengumpulkan hanya apa yang kami perlu untuk "
-"sediakan dan meningkatkan %1$s untuk setiap orang"
+msgid "Mozilla strives to collect only what we need to provide and improve %1$s for everyone."
+msgstr "Mozilla berusaha untuk mengumpulkan hanya apa yang kami perlu untuk sediakan dan meningkatkan %1$s untuk setiap orang."
 
 msgctxt "settings_action_learnmore"
 msgid "Learn more"
@@ -409,9 +394,7 @@ msgstr "Bagikan dengan teman"
 #. name i.e. Firefox ScreenshotGo, and %2$s is the Google Play url
 #, c-format
 msgctxt "share_intro"
-msgid ""
-"Hey, check out this new app that helps you organize and find your "
-"screenshots easily. It’s called %1$s. %2$s"
+msgid "Hey, check out this new app that helps you organize and find your screenshots easily. It’s called %1$s. %2$s"
 msgstr ""
 
 msgctxt "settings_list_about"
@@ -428,10 +411,9 @@ msgctxt "about_list_support"
 msgid "Support"
 msgstr "Dukungan"
 
-#, fuzzy
 msgctxt "about_list_right"
 msgid "Your Rights"
-msgstr "Hak Anda/ Lisensi"
+msgstr "Hak Anda"
 
 msgctxt "about_list_privacy"
 msgid "Privacy Notice"
@@ -447,9 +429,7 @@ msgid "Welcome to %1$s"
 msgstr ""
 
 msgctxt "onboarding_storage_content_permission"
-msgid ""
-"To help you organize and find your screenshots better, we’ll need your "
-"permission to access your storage."
+msgid "To help you organize and find your screenshots better, we’ll need your permission to access your storage."
 msgstr ""
 
 #. The string displays if the system autogrants storage permission. Parameter
@@ -473,9 +453,7 @@ msgstr ""
 #. The placeholder %1$s is "GO" from the product name
 #, c-format
 msgctxt "onboarding_fab_content_permission"
-msgid ""
-"The %1$s button lets you take and organize your screenshots anytime, "
-"anywhere. We’ll need your permission to enable it."
+msgid "The %1$s button lets you take and organize your screenshots anytime, anywhere. We’ll need your permission to enable it."
 msgstr ""
 
 #. String to allow users to dismiss the onboarding panel
@@ -499,10 +477,9 @@ msgid "Got it"
 msgstr ""
 
 #. Onboarding: strings to inform users when keeping denying permission
-#, fuzzy
 msgctxt "onboarding_error_title_wrong"
 msgid "Oops! Something’s wrong"
-msgstr "Ups! Ada masalah."
+msgstr "Ups! Ada masalah"
 
 #. Parameter %1$s is the app name, i.e. Firefox ScreenshotGo
 #, c-format
@@ -517,12 +494,8 @@ msgstr "Izinkan"
 #. Parameter %1$s is the app name, i.e. Firefox ScreenshotGo
 #, c-format
 msgctxt "onboarding_rareerror_content_permission"
-msgid ""
-"%1$s needs permission to access your phone’s storage. Please find "
-"Permission to turn on Storage."
-msgstr ""
-"%1$s membutuhkan izin untuk mengakses penyimpanan ponsel Anda. Temukan di"
-" bagian Izin untuk mengaktifkan Penyimpanan."
+msgid "%1$s needs permission to access your phone’s storage. Please find Permission to turn on Storage."
+msgstr "%1$s membutuhkan izin untuk mengakses penyimpanan ponsel Anda. Temukan di bagian Izin untuk mengaktifkan Penyimpanan."
 
 msgctxt "onboarding_rareerror_action_goto"
 msgid "Go to permission"
@@ -537,9 +510,7 @@ msgstr ""
 
 #. The string displayed to describe the survey
 msgctxt "onboarding_search_content_survey"
-msgid ""
-"We’re working on a search feature to help you find your screenshots even "
-"faster. Interested?"
+msgid "We’re working on a search feature to help you find your screenshots even faster. Interested?"
 msgstr ""
 
 msgctxt "onboarding_search_action_agree"
@@ -554,4 +525,3 @@ msgstr ""
 msgctxt "onboarding_search_content_feedback"
 msgid "Thanks for your feedback!"
 msgstr ""
-
