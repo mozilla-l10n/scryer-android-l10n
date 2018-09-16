@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-09-12 22:44+0800\n"
-"PO-Revision-Date: 2018-09-16 02:52+0000\n"
+"PO-Revision-Date: 2018-09-16 03:11+0000\n"
 "Last-Translator: Fauzan Alfi <fauzanalfi@mozilla.web.id>\n"
 "Language-Team: id <LL@li.org>\n"
 "Language: id\n"
@@ -91,11 +91,11 @@ msgstr "Berita & Artikel"
 
 msgctxt "sorting_suggestion_4th"
 msgid "Chat history"
-msgstr ""
+msgstr "Riwayat percakapan"
 
 msgctxt "sorting_suggestion_5th"
 msgid "Event & Activity"
-msgstr ""
+msgstr "Acara & Aktivitas"
 
 #. Strings displayed to allow users to create collection name
 msgctxt "dialogue_title_collection"
@@ -395,7 +395,7 @@ msgstr "Bagikan dengan teman"
 #, c-format
 msgctxt "share_intro"
 msgid "Hey, check out this new app that helps you organize and find your screenshots easily. It’s called %1$s. %2$s"
-msgstr ""
+msgstr "Hei, lihat aplikasi baru ini yang membantu Anda mengelola dan menemukan tangkapan layar Anda dengan mudah. Aplikasi ini bernama %1$s. %2$s"
 
 msgctxt "settings_list_about"
 msgid "About"
@@ -426,18 +426,18 @@ msgstr "Kebijakan Privasi"
 #, c-format
 msgctxt "onboarding_storage_title_welcome"
 msgid "Welcome to %1$s"
-msgstr ""
+msgstr "Selamat datang di %1$s"
 
 msgctxt "onboarding_storage_content_permission"
 msgid "To help you organize and find your screenshots better, we’ll need your permission to access your storage."
-msgstr ""
+msgstr "Untuk membantu untuk kelola dan temukan tangkapan layar Anda dengan lebih baik, kami memerlukan izin Anda untuk mengakses penyimpanan."
 
 #. The string displays if the system autogrants storage permission. Parameter
 #. %1$s is the app name, i.e. Firefox ScreenshotGo
 #, c-format
 msgctxt "onboarding_storage_content_autogrant"
 msgid "%1$s helps you organize and find your screenshots better."
-msgstr ""
+msgstr "%1$s bantu Anda mengelola dan menemukan tangkapan layar Anda dengan lebih baik."
 
 msgctxt "onboarding_transition_loading"
 msgid "Loading"
@@ -448,33 +448,33 @@ msgstr "Memuat"
 #, c-format
 msgctxt "onboarding_fab_title_fab"
 msgid "Get the %1$s button"
-msgstr ""
+msgstr "Dapatkan tombol %1$s"
 
 #. The placeholder %1$s is "GO" from the product name
 #, c-format
 msgctxt "onboarding_fab_content_permission"
 msgid "The %1$s button lets you take and organize your screenshots anytime, anywhere. We’ll need your permission to enable it."
-msgstr ""
+msgstr "Tombol %1$s memungkinkan Anda mengambil dan mengelola tangkapan layar kapanpun, di manapun. Kami membutuhkan izin Anda untuk mengaktifkan ini."
 
 #. String to allow users to dismiss the onboarding panel
 msgctxt "onboarding_fab_action_later"
 msgid "Later"
-msgstr ""
+msgstr "Nanti"
 
 msgctxt "onboarding_fab_action_grant"
 msgid "Grant Permission"
-msgstr ""
+msgstr "Beri Izin"
 
 #. Auto-grant overlay permission prompt. The placeholder %1$s is "GO" from the
 #. product name
 #, c-format
 msgctxt "onboarding_autogrant_overlay_title"
 msgid "Use the %1$s button to take and organize screenshots anytime, anywhere."
-msgstr ""
+msgstr "Gunakan tombol %1$s untuk mengambil dan mengelola tangkapan layar kapanpun, di mana pun."
 
 msgctxt "onboarding_autogrant_overlay_gotit"
 msgid "Got it"
-msgstr ""
+msgstr "Mengerti"
 
 #. Onboarding: strings to inform users when keeping denying permission
 msgctxt "onboarding_error_title_wrong"
