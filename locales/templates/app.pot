@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-09-12 22:44+0800\n"
+"POT-Creation-Date: 2018-09-19 17:55+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -144,6 +144,23 @@ msgctxt "collection_separator_shots"
 msgid "%1$d shots"
 msgstr ""
 
+#. String displalyed when recognizing text on screenshot experiencing unknown
+#. error
+msgctxt "detail_ocr_error_failed"
+msgid "Recognize failed"
+msgstr ""
+
+#. String displayed when recognizing text on screenshots discovering the size
+#. of screenshot is beyond the accptable ratio
+msgctxt "detail_ocr_error_edgecase"
+msgid "Something went wrong? Crop the screenshot and retry."
+msgstr ""
+
+#. String displayed when recognizing no text on the screenshot
+msgctxt "detail_ocr_error_notext"
+msgid "No text found"
+msgstr ""
+
 #. Detail view: string displayed on the detail view when recognizing the text
 #. on the screenshot
 msgctxt "detail_transition_recognizing"
@@ -264,9 +281,11 @@ msgctxt "menu_action_share"
 msgid "Share"
 msgstr ""
 
-#. Bottom sheet: strings displayed on the reminder panel
+#. Bottom sheet: strings displayed on the reminder panel, and the placeholder
+#. %1$s is the app name, ScreenshotGo
+#, c-format
 msgctxt "sheet_enable_title_enable"
-msgid "Enable to take screenshots?"
+msgid "Enable %1$s to take screenshots?"
 msgstr ""
 
 msgctxt "sheet_enable_content_enable"
