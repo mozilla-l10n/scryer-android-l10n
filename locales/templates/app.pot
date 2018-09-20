@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-09-20 14:31+0800\n"
+"POT-Creation-Date: 2018-09-20 15:05+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -146,7 +146,7 @@ msgstr ""
 
 #. String displayed when text recognition has an unknown error
 msgctxt "detail_ocr_error_failed"
-msgid "Recognize failed"
+msgid "Text recognition failed"
 msgstr ""
 
 #. String displayed when text recognition fails because the image is too big
