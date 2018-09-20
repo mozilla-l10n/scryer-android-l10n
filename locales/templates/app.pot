@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-09-19 17:55+0800\n"
+"POT-Creation-Date: 2018-09-20 14:31+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -144,14 +144,13 @@ msgctxt "collection_separator_shots"
 msgid "%1$d shots"
 msgstr ""
 
-#. String displalyed when recognizing text on screenshot experiencing unknown
-#. error
+#. String displayed when text recognition has an unknown error
 msgctxt "detail_ocr_error_failed"
 msgid "Recognize failed"
 msgstr ""
 
-#. String displayed when recognizing text on screenshots discovering the size
-#. of screenshot is beyond the accptable ratio
+#. String displayed when text recognition fails because the image is too big
+#. or has unacceptable proportion
 msgctxt "detail_ocr_error_edgecase"
 msgid "Something went wrong? Crop the screenshot and retry."
 msgstr ""
@@ -363,7 +362,7 @@ msgid "Enable %1$s button"
 msgstr ""
 
 msgctxt "settings_list_sorting"
-msgid "Prompt to save"
+msgid "Prompt to sort"
 msgstr ""
 
 msgctxt "settings_detail_sorting"
@@ -399,11 +398,11 @@ msgid "Let us know what you think."
 msgstr ""
 
 msgctxt "feedback_action_rate"
-msgid "Rate on Google Play"
+msgid "Yes, rate 5 stars!"
 msgstr ""
 
 msgctxt "feedback_action_feedback"
-msgid "Give us feedback"
+msgid "No, send feedback."
 msgstr ""
 
 msgctxt "settings_list_share"
