@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-10-02 17:17+0800\n"
+"POT-Creation-Date: 2018-10-03 15:22+0800\n"
 "PO-Revision-Date: 2018-09-21 10:05+0000\n"
 "Last-Translator: Kiki <kelimutu.rizki@gmail.com>\n"
 "Language-Team: id <LL@li.org>\n"
@@ -206,11 +206,11 @@ msgstr "Hapus tangkapan layar?"
 
 #, fuzzy
 msgctxt "dialogue_delete_content_cantundo"
-msgid "Are you sure? This action will permanently delete all of its screenshots from the phone."
+msgid "Are you sure? Deleting this collection will permanently remove all of its screenshots from your phone."
 msgstr "Anda yakin? Tindakan ini tidak bisa diurungkan."
 
 msgctxt "dialogue_deleteshot_content_delete"
-msgid "Are you sure? This action will permanently delete this screenshot from the phone."
+msgid "Are you sure? Deleting screenshot will permanently remove this screenshot from your phone."
 msgstr ""
 
 #. Parameter %1$d is the quantity of screenshot files, i.e. 100 screenshots
