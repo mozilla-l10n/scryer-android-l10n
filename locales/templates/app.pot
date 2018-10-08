@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-10-03 15:22+0800\n"
+"POT-Creation-Date: 2018-10-08 17:49+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -199,12 +199,16 @@ msgctxt "dialogue_deleteshot_title_delete"
 msgid "Delete screenshot?"
 msgstr ""
 
+#. String displayed to state that the action will erase "all screenshots in
+#. the collection," which is "its screenshots" in the string.
 msgctxt "dialogue_delete_content_cantundo"
 msgid "Are you sure? Deleting this collection will permanently remove all of its screenshots from your phone."
 msgstr ""
 
+#. String displayed to state that the action will erase all selected
+#. screenshots.
 msgctxt "dialogue_deleteshot_content_delete"
-msgid "Are you sure? Deleting screenshot will permanently remove this screenshot from your phone."
+msgid "Are you sure? Deleting screenshots will permanently remove screenshots from your phone."
 msgstr ""
 
 #. Parameter %1$d is the quantity of screenshot files, i.e. 100 screenshots
