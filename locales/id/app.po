@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-09-20 15:05+0800\n"
+"POT-Creation-Date: 2018-10-08 17:49+0800\n"
 "PO-Revision-Date: 2018-09-21 10:05+0000\n"
 "Last-Translator: Kiki <kelimutu.rizki@gmail.com>\n"
 "Language-Team: id <LL@li.org>\n"
@@ -21,8 +21,9 @@ msgstr ""
 "X-Generator: Pontoon\n"
 
 #. Label used for buttons to create new collection, e.g. in dialogs
+#, fuzzy
 msgctxt "action_create"
-msgid "Create new"
+msgid "Create new collection"
 msgstr "Buat baru"
 
 #. Label used for buttons to delete items, e.g. in dialogs
@@ -61,10 +62,6 @@ msgstr "Ketuk untuk mengelompokkan tangkapan layar"
 #. Sorting panel: strings displayed on the sorting panel to help users
 #. categorize screenshots,      Refer to UX spec 1.1:
 #. https://mozilla.invisionapp.com/share/24N3MMQB986#/310133909_1-1_Key_Flow_Add_To_Collection
-msgctxt "sorting_title_addto"
-msgid "Add to"
-msgstr "Tambahkan ke"
-
 #. String displayed to skip the current screenshot and move on to the next one
 msgctxt "multisorting_action_next"
 msgid "Next"
@@ -165,8 +162,9 @@ msgstr "Teks tidak ditemukan"
 
 #. Detail view: string displayed on the detail view when recognizing the text
 #. on the screenshot
+#, fuzzy
 msgctxt "detail_transition_recognizing"
-msgid "Recognizing…"
+msgid "Text recognizing…"
 msgstr "Mengenali…"
 
 #. Dialogue: strings displayed in the dialogues which inform users about a
@@ -206,9 +204,18 @@ msgctxt "dialogue_deleteshot_title_delete"
 msgid "Delete screenshot?"
 msgstr "Hapus tangkapan layar?"
 
+#. String displayed to state that the action will erase "all screenshots in
+#. the collection," which is "its screenshots" in the string.
+#, fuzzy
 msgctxt "dialogue_delete_content_cantundo"
-msgid "Are you sure? This action cannot be undone."
+msgid "Are you sure? Deleting this collection will permanently remove all of its screenshots from your phone."
 msgstr "Anda yakin? Tindakan ini tidak bisa diurungkan."
+
+#. String displayed to state that the action will erase all selected
+#. screenshots.
+msgctxt "dialogue_deleteshot_content_delete"
+msgid "Are you sure? Deleting screenshots will permanently remove screenshots from your phone."
+msgstr ""
 
 #. Parameter %1$d is the quantity of screenshot files, i.e. 100 screenshots
 #, c-format
@@ -478,10 +485,6 @@ msgstr "Tombol %1$s memungkinkan Anda mengambil dan mengelola tangkapan layar ka
 msgctxt "onboarding_fab_action_later"
 msgid "Later"
 msgstr "Nanti"
-
-msgctxt "onboarding_fab_action_grant"
-msgid "Grant Permission"
-msgstr "Beri Izin"
 
 #. Auto-grant overlay permission prompt. The placeholder %1$s is "GO" from the
 #. product name
