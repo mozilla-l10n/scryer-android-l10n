@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-10-08 17:49+0800\n"
-"PO-Revision-Date: 2018-10-10 01:38+0000\n"
-"Last-Translator: Fauzan Alfi <fauzanalfi@mozilla.web.id>\n"
+"PO-Revision-Date: 2018-10-11 12:02+0000\n"
+"Last-Translator: Romi Hardiyanto <romihardiyanto@gmail.com>\n"
 "Language-Team: id <LL@li.org>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -206,13 +206,13 @@ msgstr "Hapus tangkapan layar?"
 #. the collection," which is "its screenshots" in the string.
 msgctxt "dialogue_delete_content_cantundo"
 msgid "Are you sure? Deleting this collection will permanently remove all of its screenshots from your phone."
-msgstr "Anda yakin? Menghapus koleksi ini akan menghapus semua tangkapan layar yang terkandung secara permanen dari ponsel Anda."
+msgstr "Anda yakin? Menghapus koleksi ini akan menghapus semua tangkapan layar dari ponsel Anda secara permanen."
 
 #. String displayed to state that the action will erase all selected
 #. screenshots.
 msgctxt "dialogue_deleteshot_content_delete"
 msgid "Are you sure? Deleting screenshots will permanently remove screenshots from your phone."
-msgstr "Apakah Anda yakin? Menghapus tangkapan layar akan menghilangkannya secara permanen dari ponsel Anda."
+msgstr "Anda yakin? Menghapus tangkapan layar ini akan menghapus tangkapan layar dari ponsel Anda secara permanen."
 
 #. Parameter %1$d is the quantity of screenshot files, i.e. 100 screenshots
 #, c-format
