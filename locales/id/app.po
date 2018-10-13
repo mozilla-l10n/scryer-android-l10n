@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-10-08 17:49+0800\n"
-"PO-Revision-Date: 2018-10-11 12:02+0000\n"
-"Last-Translator: Romi Hardiyanto <romihardiyanto@gmail.com>\n"
+"PO-Revision-Date: 2018-10-13 13:53+0000\n"
+"Last-Translator: Fauzan Alfi <fauzanalfi@mozilla.web.id>\n"
 "Language-Team: id <LL@li.org>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -33,18 +33,18 @@ msgstr "Hapus"
 #. Label used for title in screenshot info dialogue, but for action in menu
 msgctxt "info_info"
 msgid "Screenshot info"
-msgstr "Info tangkapan layar"
+msgstr "Info cuplikan layar"
 
 #. Label used when no content
 msgctxt "title_noshots"
 msgid "No screenshots yet!"
-msgstr "Belum ada tangkapan layar!"
+msgstr "Belum ada cuplikan layar!"
 
 #. Notification: strings displayed on the notification to perform various
 #. actions
 msgctxt "notification_action_capture"
 msgid "Tap to take screenshot"
-msgstr "Ketuk untuk mengambil tangkapan layar"
+msgstr "Ketuk untuk mengambil cuplikan layar"
 
 msgctxt "notification_action_open"
 msgid "Open app"
@@ -56,7 +56,7 @@ msgstr "Hentikan"
 
 msgctxt "notification_action_collect"
 msgid "Tap to sort screenshots"
-msgstr "Ketuk untuk mengelompokkan tangkapan layar"
+msgstr "Ketuk untuk mengelompokkan cuplikan layar"
 
 #. Sorting panel: strings displayed on the sorting panel to help users
 #. categorize screenshots,      Refer to UX spec 1.1:
@@ -141,7 +141,7 @@ msgstr "Belum Disortir"
 #, c-format
 msgctxt "collection_separator_shots"
 msgid "%1$d shots"
-msgstr "%1$d tangkapan"
+msgstr "%1$d cuplikan"
 
 #. String displayed when text recognition has an unknown error
 msgctxt "detail_ocr_error_failed"
@@ -152,7 +152,7 @@ msgstr "Gagal mengenali teks"
 #. or has unacceptable proportion
 msgctxt "detail_ocr_error_edgecase"
 msgid "Something went wrong? Crop the screenshot and retry."
-msgstr "Ada yang salah? Potong tangkapan layar dan coba kembali."
+msgstr "Ada yang salah? Potong cuplikan layar dan coba kembali."
 
 #. String displayed when recognizing no text on the screenshot
 msgctxt "detail_ocr_error_notext"
@@ -180,7 +180,7 @@ msgstr "Nama"
 
 msgctxt "dialogue_collecitioninfo_list_shot"
 msgid "Total screenshots"
-msgstr "Jumlah tangkapan layar"
+msgstr "Jumlah cuplikan layar"
 
 msgctxt "dialogue_collecitioninfo_list_storage"
 msgid "Storage used"
@@ -200,25 +200,25 @@ msgstr "Hapus koleksi?"
 
 msgctxt "dialogue_deleteshot_title_delete"
 msgid "Delete screenshot?"
-msgstr "Hapus tangkapan layar?"
+msgstr "Hapus cuplikan layar?"
 
 #. String displayed to state that the action will erase "all screenshots in
 #. the collection," which is "its screenshots" in the string.
 msgctxt "dialogue_delete_content_cantundo"
 msgid "Are you sure? Deleting this collection will permanently remove all of its screenshots from your phone."
-msgstr "Anda yakin? Menghapus koleksi ini akan menghapus semua tangkapan layar dari ponsel Anda secara permanen."
+msgstr "Anda yakin? Menghapus koleksi ini akan menghapus semua cuplikan layar dari ponsel Anda secara permanen."
 
 #. String displayed to state that the action will erase all selected
 #. screenshots.
 msgctxt "dialogue_deleteshot_content_delete"
 msgid "Are you sure? Deleting screenshots will permanently remove screenshots from your phone."
-msgstr "Anda yakin? Menghapus tangkapan layar ini akan menghapus tangkapan layar dari ponsel Anda secara permanen."
+msgstr "Anda yakin? Menghapus cuplikan layar ini akan menghapus cuplikan layar dari ponsel Anda secara permanen."
 
 #. Parameter %1$d is the quantity of screenshot files, i.e. 100 screenshots
 #, c-format
 msgctxt "dialogue_deletecollection_content_shots"
 msgid "%1$d screenshots"
-msgstr "%1$d tangkapan layar"
+msgstr "%1$d cuplikan layar"
 
 msgctxt "dialogue_rename_title_rename"
 msgid "Rename collection"
@@ -241,7 +241,7 @@ msgstr "Lewati sisanya?"
 
 msgctxt "dialogue_skipsorting_content_moveto"
 msgid "Skip remaining screenshots and move to “Unsorted?”"
-msgstr "Lewati tangkapan layar lainnya dan pindahkan ke kelompok “Belum Disortir?”"
+msgstr "Lewati cuplikan layar lainnya dan pindahkan ke kelompok “Belum Disortir?”"
 
 #. Parameter %1$d is the quantity of screenshot files, i.e. 100 remaining
 #, c-format
@@ -292,11 +292,11 @@ msgstr "Bagikan"
 #, c-format
 msgctxt "sheet_enable_title_enable"
 msgid "Enable %1$s to take screenshots?"
-msgstr "Aktifkan %1$s untuk menangkap layar?"
+msgstr "Aktifkan %1$s untuk mencuplik layar?"
 
 msgctxt "sheet_enable_content_enable"
 msgid "You won’t be able to take screenshots with one tap unless this is enabled."
-msgstr "Anda tidak dapat menangkap layar dengan sekali ketuk kecuali ini diaktifkan."
+msgstr "Anda tidak dapat mencuplik layar dengan sekali ketuk kecuali ini diaktifkan."
 
 #. String displayed to allow users to enable the screenshot service
 msgctxt "sheet_enable_action_enable"
@@ -305,14 +305,14 @@ msgstr "Aktif"
 
 msgctxt "sheet_unsorted_title_unsorted"
 msgid "Unsorted screenshots"
-msgstr "Tangkapan Layar Belum Disortir"
+msgstr "Cuplikan Layar Belum Disortir"
 
 #. Parameter %1$d is the quantity of screenshot files, i.e. 100 unsorted
 #. screenshots. Sort them now?
 #, c-format
 msgctxt "sheet_unsorted_content_shots"
 msgid "%1$d unsorted screenshots. Sort them now?"
-msgstr "%1$d tangkapan layar yang belum disortir. Sortir sekarang?"
+msgstr "%1$d cuplikan layar yang belum disortir. Sortir sekarang?"
 
 msgctxt "sheet_box_ask"
 msgid "Don’t ask again"
@@ -329,11 +329,11 @@ msgstr "Tidak, terima kasih"
 #. Snackbar: strings to provide confirmations for user’s actions
 msgctxt "snackbar_disable"
 msgid "Screenshot feature disabled"
-msgstr "Layanan tangkapan layar dinonaktifkan"
+msgstr "Layanan pencuplik layar dinonaktifkan"
 
 msgctxt "snackbar_enable"
 msgid "Screenshot feature enabled"
-msgstr "Layanan tangkapan layar diaktifkan"
+msgstr "Layanan pencuplik layar diaktifkan"
 
 #. Parameter %1$s is the collection name user defined, i.e. Shopping
 #, c-format
@@ -352,12 +352,12 @@ msgstr "Disalin"
 #. to customize
 msgctxt "settings_list_capture"
 msgid "Enable to take screenshots"
-msgstr "Aktifkan untuk menangkap layar"
+msgstr "Aktifkan untuk mencuplik layar"
 
 #. The string changes to serve as description of settings_list_fab
 msgctxt "settings_detail_capture"
 msgid "Allows you to take a screenshot with one tap. Works with whatever is on your screen."
-msgstr "Memungkinkan Anda menangkap layar dengan sekali ketuk. Bekerja dengan apa pun yang ada di layar Anda."
+msgstr "Memungkinkan Anda mencuplik layar dengan sekali ketuk. Bekerja dengan apa pun yang ada di layar Anda."
 
 #. The string displayed to enable a floating button to take screenshot, and
 #. the placeholder %1$s is "GO" from the product name
@@ -372,7 +372,7 @@ msgstr "Tanyakan untuk menyortir"
 
 msgctxt "settings_detail_sorting"
 msgid "Always prompt to add screenshot to a collection"
-msgstr "Selalu tanyakan untuk menambahkan tangkapan layar ke koleksi"
+msgstr "Selalu tanyakan untuk menambah cuplikan layar ke koleksi"
 
 msgctxt "settings_list_usagedata"
 msgid "Send usage data"
@@ -417,7 +417,7 @@ msgstr "Bagikan dengan teman"
 #, c-format
 msgctxt "share_intro"
 msgid "Hey, check out this new app that helps you organize and find your screenshots easily. It’s called %1$s. %2$s"
-msgstr "Hei, lihat aplikasi baru ini yang membantu Anda mengelola dan menemukan tangkapan layar Anda dengan mudah. Aplikasi ini bernama %1$s. %2$s"
+msgstr "Hei, lihat aplikasi baru ini yang membantu Anda mengelola dan menemukan cuplikan layar Anda dengan mudah. Aplikasi ini bernama %1$s. %2$s"
 
 msgctxt "settings_list_about"
 msgid "About"
@@ -452,14 +452,14 @@ msgstr "Selamat datang di %1$s"
 
 msgctxt "onboarding_storage_content_permission"
 msgid "To help you organize and find your screenshots better, we’ll need your permission to access your storage."
-msgstr "Untuk membantu untuk kelola dan temukan tangkapan layar Anda dengan lebih baik, kami memerlukan izin Anda untuk mengakses penyimpanan."
+msgstr "Untuk membantu untuk kelola dan temukan cuplikan layar Anda dengan lebih baik, kami memerlukan izin Anda untuk mengakses penyimpanan."
 
 #. The string displays if the system autogrants storage permission. Parameter
 #. %1$s is the app name, i.e. Firefox ScreenshotGo
 #, c-format
 msgctxt "onboarding_storage_content_autogrant"
 msgid "%1$s helps you organize and find your screenshots better."
-msgstr "%1$s bantu Anda mengelola dan menemukan tangkapan layar Anda dengan lebih baik."
+msgstr "%1$s bantu Anda mengelola dan menemukan cuplikan layar Anda dengan lebih baik."
 
 msgctxt "onboarding_transition_loading"
 msgid "Loading"
@@ -476,7 +476,7 @@ msgstr "Dapatkan tombol %1$s"
 #, c-format
 msgctxt "onboarding_fab_content_permission"
 msgid "The %1$s button lets you take and organize your screenshots anytime, anywhere. We’ll need your permission to enable it."
-msgstr "Tombol %1$s memungkinkan Anda mengambil dan mengelola tangkapan layar kapanpun, di manapun. Kami membutuhkan izin Anda untuk mengaktifkan ini."
+msgstr "Tombol %1$s memungkinkan Anda mengambil dan mengelola cuplikan layar kapanpun, di manapun. Kami membutuhkan izin Anda untuk mengaktifkan ini."
 
 #. String to allow users to dismiss the onboarding panel
 msgctxt "onboarding_fab_action_later"
@@ -488,7 +488,7 @@ msgstr "Nanti"
 #, c-format
 msgctxt "onboarding_autogrant_overlay_title"
 msgid "Use the %1$s button to take and organize screenshots anytime, anywhere."
-msgstr "Gunakan tombol %1$s untuk mengambil dan mengelola tangkapan layar kapanpun, di mana pun."
+msgstr "Gunakan tombol %1$s untuk mengambil dan mengelola cuplikan layar kapanpun, di mana pun."
 
 msgctxt "onboarding_autogrant_overlay_gotit"
 msgid "Got it"
@@ -529,7 +529,7 @@ msgstr "Pencarian akan segera hadir!"
 #. The string displayed to describe the survey
 msgctxt "onboarding_search_content_survey"
 msgid "We’re working on a search feature to help you find your screenshots even faster. Interested?"
-msgstr "Kami sedang mengerjakan fitur pencarian untuk membantu Anda temukan tangkapan layar jauh lebih cepat. Tertarik?"
+msgstr "Kami sedang mengerjakan fitur pencarian untuk membantu Anda temukan cuplikan layar jauh lebih cepat. Tertarik?"
 
 msgctxt "onboarding_search_action_agree"
 msgid "Yes please"
