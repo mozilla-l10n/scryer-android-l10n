@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-10-08 17:49+0800\n"
+"POT-Creation-Date: 2018-10-17 09:39+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,8 +51,13 @@ msgctxt "notification_action_stop"
 msgid "Stop"
 msgstr ""
 
+#. String displayed to inform users new screenshots captured
+msgctxt "notification_action_collect_title"
+msgid "New screenshots captured"
+msgstr ""
+
 msgctxt "notification_action_collect"
-msgid "Tap to sort screenshots"
+msgid "Tap to sort your screenshots"
 msgstr ""
 
 #. Sorting panel: strings displayed on the sorting panel to help users
@@ -138,6 +143,20 @@ msgstr ""
 #, c-format
 msgctxt "collection_separator_shots"
 msgid "%1$d shots"
+msgstr ""
+
+#. String displayed to inform users all screenshots are selected
+msgctxt "collection_header_select_all"
+msgid "All selected"
+msgstr ""
+
+#. String displayed to inform users to select screenshot
+msgctxt "collection_header_select_none"
+msgid "Select screenshots"
+msgstr ""
+
+msgctxt "collection_header_viewall_all"
+msgid "All screenshots"
 msgstr ""
 
 #. String displayed when text recognition has an unknown error
@@ -253,10 +272,6 @@ msgstr ""
 
 #. Menu: strings displayed when triggering the overflow menu in the top-right
 #. corner of each view
-msgctxt "menu_title_action"
-msgid "Actions"
-msgstr ""
-
 msgctxt "menu_shot_action_move"
 msgid "Move to…"
 msgstr ""
@@ -348,7 +363,7 @@ msgstr ""
 #. take screenshots. If enabled, the system reveals two more options for users
 #. to customize
 msgctxt "settings_list_capture"
-msgid "Enable to take screenshots"
+msgid "Enable screenshot feature"
 msgstr ""
 
 #. The string changes to serve as description of settings_list_fab
@@ -362,7 +377,7 @@ msgstr ""
 #. the placeholder %1$s is "GO" from the product name
 #, c-format
 msgctxt "settings_list_fab"
-msgid "Enable %1$s button"
+msgid "%1$s button"
 msgstr ""
 
 msgctxt "settings_list_sorting"
@@ -538,8 +553,8 @@ msgstr ""
 #. The string displayed to describe the survey
 msgctxt "onboarding_search_content_survey"
 msgid ""
-"We’re working on a search feature to help you find your screenshots even "
-"faster. Interested?"
+"We’re working on a magic feature to help you search screenshots with "
+"text. Interested?"
 msgstr ""
 
 msgctxt "onboarding_search_action_agree"
