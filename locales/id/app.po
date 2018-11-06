@@ -2,23 +2,22 @@
 # Copyright (C) 2018 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-10-17 09:39+0800\n"
+"POT-Creation-Date: 2018-11-07 00:49+0800\n"
 "PO-Revision-Date: 2018-10-18 12:19+0000\n"
 "Last-Translator: Romi Hardiyanto <romihardiyanto@gmail.com>\n"
-"Language-Team: id <LL@li.org>\n"
 "Language: id\n"
+"Language-Team: id <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=(0)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Pontoon\n"
 
 #. Label used for buttons to create new collection, e.g. in dialogs
 msgctxt "action_create"
@@ -39,6 +38,11 @@ msgstr "Info cuplikan layar"
 msgctxt "title_noshots"
 msgid "No screenshots yet!"
 msgstr "Belum ada cuplikan layar!"
+
+#. Label used for buttons to skip the current action
+msgctxt "action_later"
+msgid "Later"
+msgstr ""
 
 #. Notification: strings displayed on the notification to perform various
 #. actions
@@ -180,8 +184,9 @@ msgstr "Teks tidak ditemukan"
 
 #. Detail view: string displayed on the detail view when recognizing the text
 #. on the screenshot
+#, fuzzy
 msgctxt "detail_transition_recognizing"
-msgid "Text recognizing…"
+msgid "Recognizing text…"
 msgstr "Mengenali teks…"
 
 #. Dialogue: strings displayed in the dialogues which inform users about a
@@ -224,14 +229,22 @@ msgstr "Hapus cuplikan layar?"
 #. String displayed to state that the action will erase "all screenshots in
 #. the collection," which is "its screenshots" in the string.
 msgctxt "dialogue_delete_content_cantundo"
-msgid "Are you sure? Deleting this collection will permanently remove all of its screenshots from your phone."
-msgstr "Anda yakin? Menghapus koleksi ini akan menghapus semua cuplikan layar dari ponsel Anda secara permanen."
+msgid ""
+"Are you sure? Deleting this collection will permanently remove all of its"
+" screenshots from your phone."
+msgstr ""
+"Anda yakin? Menghapus koleksi ini akan menghapus semua cuplikan layar "
+"dari ponsel Anda secara permanen."
 
 #. String displayed to state that the action will erase all selected
 #. screenshots.
 msgctxt "dialogue_deleteshot_content_delete"
-msgid "Are you sure? Deleting screenshots will permanently remove screenshots from your phone."
-msgstr "Anda yakin? Menghapus cuplikan layar ini akan menghapus cuplikan layar dari ponsel Anda secara permanen."
+msgid ""
+"Are you sure? Deleting screenshots will permanently remove screenshots "
+"from your phone."
+msgstr ""
+"Anda yakin? Menghapus cuplikan layar ini akan menghapus cuplikan layar "
+"dari ponsel Anda secara permanen."
 
 #. Parameter %1$d is the quantity of screenshot files, i.e. 100 screenshots
 #, c-format
@@ -311,7 +324,9 @@ msgstr "Aktifkan %1$s untuk mencuplik layar?"
 
 msgctxt "sheet_enable_content_enable"
 msgid "You won’t be able to take screenshots with one tap unless this is enabled."
-msgstr "Anda tidak dapat mencuplik layar dengan sekali ketuk kecuali ini diaktifkan."
+msgstr ""
+"Anda tidak dapat mencuplik layar dengan sekali ketuk kecuali ini "
+"diaktifkan."
 
 #. String displayed to allow users to enable the screenshot service
 msgctxt "sheet_enable_action_enable"
@@ -371,14 +386,18 @@ msgstr "Aktifkan fitur mencuplik layar"
 
 #. The string changes to serve as description of settings_list_fab
 msgctxt "settings_detail_capture"
-msgid "Allows you to take a screenshot with one tap. Works with whatever is on your screen."
-msgstr "Memungkinkan Anda mencuplik layar dengan sekali ketuk. Bekerja dengan apa pun yang ada di layar Anda."
+msgid ""
+"Allows you to take a screenshot with one tap. Works with whatever is on "
+"your screen."
+msgstr ""
+"Memungkinkan Anda mencuplik layar dengan sekali ketuk. Bekerja dengan apa"
+" pun yang ada di layar Anda."
 
 #. The string displayed to enable a floating button to take screenshot, and
 #. the placeholder %1$s is "GO" from the product name
-#, c-format
+#, c-format, fuzzy
 msgctxt "settings_list_fab"
-msgid "%1$s button"
+msgid "Use %1$s button"
 msgstr "Tombol %1$s"
 
 msgctxt "settings_list_sorting"
@@ -396,8 +415,12 @@ msgstr "Kirim data penggunaan"
 #. Parameter %1$s is the app name, i.e. Firefox ScreenshotGo
 #, c-format
 msgctxt "settings_detail_mozilla"
-msgid "Mozilla strives to collect only what we need to provide and improve %1$s for everyone."
-msgstr "Mozilla berusaha untuk mengumpulkan hanya apa yang kami perlu untuk sediakan dan meningkatkan %1$s untuk setiap orang."
+msgid ""
+"Mozilla strives to collect only what we need to provide and improve %1$s "
+"for everyone."
+msgstr ""
+"Mozilla berusaha untuk mengumpulkan hanya apa yang kami perlu untuk "
+"sediakan dan meningkatkan %1$s untuk setiap orang."
 
 msgctxt "settings_action_learnmore"
 msgid "Learn more"
@@ -431,8 +454,12 @@ msgstr "Bagikan dengan teman"
 #. name i.e. Firefox ScreenshotGo, and %2$s is the Google Play url
 #, c-format
 msgctxt "share_intro"
-msgid "Hey, check out this new app that helps you organize and find your screenshots easily. It’s called %1$s. %2$s"
-msgstr "Hei, lihat aplikasi baru ini yang membantu Anda mengelola dan menemukan cuplikan layar Anda dengan mudah. Aplikasi ini bernama %1$s. %2$s"
+msgid ""
+"Hey, check out this new app that helps you organize and find your "
+"screenshots easily. It’s called %1$s. %2$s"
+msgstr ""
+"Hei, lihat aplikasi baru ini yang membantu Anda mengelola dan menemukan "
+"cuplikan layar Anda dengan mudah. Aplikasi ini bernama %1$s. %2$s"
 
 msgctxt "settings_list_about"
 msgid "About"
@@ -466,15 +493,21 @@ msgid "Welcome to %1$s"
 msgstr "Selamat datang di %1$s"
 
 msgctxt "onboarding_storage_content_permission"
-msgid "To help you organize and find your screenshots better, we’ll need your permission to access your storage."
-msgstr "Untuk membantu untuk kelola dan temukan cuplikan layar Anda dengan lebih baik, kami memerlukan izin Anda untuk mengakses penyimpanan."
+msgid ""
+"To help you organize and find your screenshots better, we’ll need your "
+"permission to access your storage."
+msgstr ""
+"Untuk membantu untuk kelola dan temukan cuplikan layar Anda dengan lebih "
+"baik, kami memerlukan izin Anda untuk mengakses penyimpanan."
 
 #. The string displays if the system autogrants storage permission. Parameter
 #. %1$s is the app name, i.e. Firefox ScreenshotGo
 #, c-format
 msgctxt "onboarding_storage_content_autogrant"
 msgid "%1$s helps you organize and find your screenshots better."
-msgstr "%1$s bantu Anda mengelola dan menemukan cuplikan layar Anda dengan lebih baik."
+msgstr ""
+"%1$s bantu Anda mengelola dan menemukan cuplikan layar Anda dengan lebih "
+"baik."
 
 msgctxt "onboarding_transition_loading"
 msgid "Loading"
@@ -490,20 +523,21 @@ msgstr "Dapatkan tombol %1$s"
 #. The placeholder %1$s is "GO" from the product name
 #, c-format
 msgctxt "onboarding_fab_content_permission"
-msgid "The %1$s button lets you take and organize your screenshots anytime, anywhere. We’ll need your permission to enable it."
-msgstr "Tombol %1$s memungkinkan Anda mengambil dan mengelola cuplikan layar kapanpun, di manapun. Kami membutuhkan izin Anda untuk mengaktifkan ini."
-
-#. String to allow users to dismiss the onboarding panel
-msgctxt "onboarding_fab_action_later"
-msgid "Later"
-msgstr "Nanti"
+msgid ""
+"The %1$s button lets you take and organize your screenshots anytime, "
+"anywhere. We’ll need your permission to enable it."
+msgstr ""
+"Tombol %1$s memungkinkan Anda mengambil dan mengelola cuplikan layar "
+"kapanpun, di manapun. Kami membutuhkan izin Anda untuk mengaktifkan ini."
 
 #. Auto-grant overlay permission prompt. The placeholder %1$s is "GO" from the
 #. product name
 #, c-format
 msgctxt "onboarding_autogrant_overlay_title"
 msgid "Use the %1$s button to take and organize screenshots anytime, anywhere."
-msgstr "Gunakan tombol %1$s untuk mengambil dan mengelola cuplikan layar kapanpun, di mana pun."
+msgstr ""
+"Gunakan tombol %1$s untuk mengambil dan mengelola cuplikan layar "
+"kapanpun, di mana pun."
 
 msgctxt "onboarding_autogrant_overlay_gotit"
 msgid "Got it"
@@ -527,8 +561,12 @@ msgstr "Izinkan"
 #. Parameter %1$s is the app name, i.e. Firefox ScreenshotGo
 #, c-format
 msgctxt "onboarding_rareerror_content_permission"
-msgid "%1$s needs permission to access your phone’s storage. Please find Permission to turn on Storage."
-msgstr "%1$s membutuhkan izin untuk mengakses penyimpanan ponsel Anda. Temukan di bagian Izin untuk mengaktifkan Penyimpanan."
+msgid ""
+"%1$s needs permission to access your phone’s storage. Please find "
+"Permission to turn on Storage."
+msgstr ""
+"%1$s membutuhkan izin untuk mengakses penyimpanan ponsel Anda. Temukan di"
+" bagian Izin untuk mengaktifkan Penyimpanan."
 
 msgctxt "onboarding_rareerror_action_goto"
 msgid "Go to permission"
@@ -543,8 +581,12 @@ msgstr "Pencarian akan segera hadir!"
 
 #. The string displayed to describe the survey
 msgctxt "onboarding_search_content_survey"
-msgid "We’re working on a magic feature to help you search screenshots with text. Interested?"
-msgstr "Kami sedang mengerjakan fitur canggih untuk membantu Anda mencari cuplikan layar berdasarkan teksnya. Tertarik?"
+msgid ""
+"We’re working on a magic feature to help you search screenshots with "
+"text. Interested?"
+msgstr ""
+"Kami sedang mengerjakan fitur canggih untuk membantu Anda mencari "
+"cuplikan layar berdasarkan teksnya. Tertarik?"
 
 msgctxt "onboarding_search_action_agree"
 msgid "Yes please"
@@ -558,3 +600,4 @@ msgstr "Tidak"
 msgctxt "onboarding_search_content_feedback"
 msgid "Thanks for your feedback!"
 msgstr "Terima kasih atas umpan balik Anda!"
+
