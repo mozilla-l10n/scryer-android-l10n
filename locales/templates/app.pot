@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-10-17 09:39+0800\n"
+"POT-Creation-Date: 2018-11-07 00:49+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,6 +35,11 @@ msgstr ""
 #. Label used when no content
 msgctxt "title_noshots"
 msgid "No screenshots yet!"
+msgstr ""
+
+#. Label used for buttons to skip the current action
+msgctxt "action_later"
+msgid "Later"
 msgstr ""
 
 #. Notification: strings displayed on the notification to perform various
@@ -178,7 +183,7 @@ msgstr ""
 #. Detail view: string displayed on the detail view when recognizing the text
 #. on the screenshot
 msgctxt "detail_transition_recognizing"
-msgid "Text recognizing…"
+msgid "Recognizing text…"
 msgstr ""
 
 #. Dialogue: strings displayed in the dialogues which inform users about a
@@ -221,13 +226,17 @@ msgstr ""
 #. String displayed to state that the action will erase "all screenshots in
 #. the collection," which is "its screenshots" in the string.
 msgctxt "dialogue_delete_content_cantundo"
-msgid "Are you sure? Deleting this collection will permanently remove all of its screenshots from your phone."
+msgid ""
+"Are you sure? Deleting this collection will permanently remove all of its"
+" screenshots from your phone."
 msgstr ""
 
 #. String displayed to state that the action will erase all selected
 #. screenshots.
 msgctxt "dialogue_deleteshot_content_delete"
-msgid "Are you sure? Deleting screenshots will permanently remove screenshots from your phone."
+msgid ""
+"Are you sure? Deleting screenshots will permanently remove screenshots "
+"from your phone."
 msgstr ""
 
 #. Parameter %1$d is the quantity of screenshot files, i.e. 100 screenshots
@@ -377,7 +386,7 @@ msgstr ""
 #. the placeholder %1$s is "GO" from the product name
 #, c-format
 msgctxt "settings_list_fab"
-msgid "%1$s button"
+msgid "Use %1$s button"
 msgstr ""
 
 msgctxt "settings_list_sorting"
@@ -498,11 +507,6 @@ msgctxt "onboarding_fab_content_permission"
 msgid ""
 "The %1$s button lets you take and organize your screenshots anytime, "
 "anywhere. We’ll need your permission to enable it."
-msgstr ""
-
-#. String to allow users to dismiss the onboarding panel
-msgctxt "onboarding_fab_action_later"
-msgid "Later"
 msgstr ""
 
 #. Auto-grant overlay permission prompt. The placeholder %1$s is "GO" from the
