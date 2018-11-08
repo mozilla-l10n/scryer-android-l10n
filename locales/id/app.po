@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-11-07 00:49+0800\n"
-"PO-Revision-Date: 2018-11-08 01:49+0000\n"
-"Last-Translator: Fauzan Alfi <fauzanalfi@mozilla.web.id>\n"
+"PO-Revision-Date: 2018-11-08 09:46+0000\n"
+"Last-Translator: Romi Hardiyanto <romihardiyanto@gmail.com>\n"
 "Language-Team: id <LL@li.org>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -472,14 +472,14 @@ msgstr "Selamat datang di %1$s"
 
 msgctxt "onboarding_storage_content_permission"
 msgid "To help you organize and find your screenshots better, we’ll need your permission to access your storage."
-msgstr "Untuk membantu untuk kelola dan temukan cuplikan layar Anda dengan lebih baik, kami memerlukan izin Anda untuk mengakses penyimpanan."
+msgstr "Untuk membantu Anda mengelola dan menemukan cuplikan layar dengan lebih baik, kami memerlukan izin Anda untuk mengakses penyimpanan."
 
 #. The string displays if the system autogrants storage permission. Parameter
 #. %1$s is the app name, i.e. Firefox ScreenshotGo
 #, c-format
 msgctxt "onboarding_storage_content_autogrant"
 msgid "%1$s helps you organize and find your screenshots better."
-msgstr "%1$s bantu Anda mengelola dan menemukan cuplikan layar Anda dengan lebih baik."
+msgstr "%1$s membantu Anda mengelola dan menemukan cuplikan layar Anda dengan lebih baik."
 
 msgctxt "onboarding_transition_loading"
 msgid "Loading"
@@ -496,18 +496,18 @@ msgstr "Dapatkan tombol %1$s"
 #, c-format
 msgctxt "onboarding_fab_content_permission"
 msgid "The %1$s button lets you take and organize your screenshots anytime, anywhere. We’ll need your permission to enable it."
-msgstr "Tombol %1$s memungkinkan Anda mengambil dan mengelola cuplikan layar kapanpun, di manapun. Kami membutuhkan izin Anda untuk mengaktifkan ini."
+msgstr "Tombol %1$s memungkinkan Anda mengambil dan mengelola cuplikan layar kapan pun, di mana pun. Kami membutuhkan izin Anda untuk mengaktifkan ini."
 
 #. Auto-grant overlay permission prompt. The placeholder %1$s is "GO" from the
 #. product name
 #, c-format
 msgctxt "onboarding_autogrant_overlay_title"
 msgid "Use the %1$s button to take and organize screenshots anytime, anywhere."
-msgstr "Gunakan tombol %1$s untuk mengambil dan mengelola cuplikan layar kapanpun, di mana pun."
+msgstr "Gunakan tombol %1$s untuk mengambil dan mengelola cuplikan layar kapan pun, di mana pun."
 
 msgctxt "onboarding_autogrant_overlay_gotit"
 msgid "Got it"
-msgstr "Mengerti"
+msgstr "Paham"
 
 #. Onboarding: strings to inform users when keeping denying permission
 msgctxt "onboarding_error_title_wrong"
