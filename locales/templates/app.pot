@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-07 00:49+0800\n"
+"POT-Creation-Date: 2018-11-13 15:30+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -281,6 +281,11 @@ msgstr ""
 
 #. Menu: strings displayed when triggering the overflow menu in the top-right
 #. corner of each view
+#. String to allow users to multi-select screenshots
+msgctxt "menu_action_select"
+msgid "Select"
+msgstr ""
+
 msgctxt "menu_shot_action_move"
 msgid "Move to…"
 msgstr ""
