@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-08 14:03+0800\n"
+"POT-Creation-Date: 2019-01-09 15:09+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,6 +27,8 @@ msgctxt "action_delete"
 msgid "Delete"
 msgstr ""
 
+#. Label used for buttons to share selected items, e.g. selected text,
+#. selected screenshot, or share the app
 msgctxt "action_share"
 msgid "Share"
 msgstr ""
@@ -190,6 +192,7 @@ msgctxt "detail_ocr_error_module"
 msgid "Connect to the internet to install offline Text Recognition module"
 msgstr ""
 
+#. String displayed to direct users to Network & internet in system Settings
 msgctxt "detail_ocr_error_action_connect"
 msgid "Connect"
 msgstr ""
@@ -608,21 +611,16 @@ msgctxt "onboarding_ocr_content_examples"
 msgid "Look up products, copy coupon codes, and share quotes in your screenshots"
 msgstr ""
 
-#. In-app promote dialog
+#. Parameter %1$s is the app name, i.e. Firefox ScreenshotGo
+#, c-format
 msgctxt "dialogue_feedback_title"
-msgid "Love Firefox ScreenshotGo?"
+msgid "Love %1$s?"
 msgstr ""
 
-msgctxt "dialogue_feedback_action_5stars"
-msgid "Rate 5 Stars"
-msgstr ""
-
-msgctxt "dialogue_feedback_action_send"
-msgid "Send Feedback"
-msgstr ""
-
+#. Parameter %1$s is the app name, i.e. Firefox ScreenshotGo
+#, c-format
 msgctxt "dialogue_share_title"
-msgid "Share Firefox ScreenshotGo with Friends!"
+msgid "Share %1$s with Friends!"
 msgstr ""
 
 msgctxt "dialogue_take_share_description"
