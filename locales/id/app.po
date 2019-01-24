@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-09 15:09+0800\n"
+"POT-Creation-Date: 2019-01-22 15:36+0800\n"
 "PO-Revision-Date: 2019-01-16 02:25+0000\n"
 "Last-Translator: delphine <dlebedel@mozilla.com>\n"
 "Language-Team: id <LL@li.org>\n"
@@ -596,6 +596,25 @@ msgctxt "onboarding_ocr_content_examples"
 msgid "Look up products, copy coupon codes, and share quotes in your screenshots"
 msgstr "Cari produk, salin kode kupon, dan bagikan penawaran di tangkapan layar Anda"
 
+#. Onboarding: strings displayed with an illustration to introduce users the
+#. new search feature, Refer to UX spec 5-1
+#. https://mozilla.invisionapp.com/share/24N3MMQB986#/310133925_5-1_Search
+msgctxt "onboarding_search_title_search"
+msgid "Finding screenshots is now easier"
+msgstr ""
+
+#. String displayed to instruct users to type words to search
+msgctxt "onboarding_search_content_typeword"
+msgid "Just type to search words within screenshots"
+msgstr ""
+
+#. String displayed to inform users recognition costs more battery
+msgctxt "onboarding_search_caption_battery"
+msgid ""
+"To make this happen, we’ll recognize your screenshot first. It may "
+"consume more battery, but it won’t take long!"
+msgstr ""
+
 #. Parameter %1$s is the app name, i.e. Firefox ScreenshotGo
 #, c-format
 msgctxt "dialogue_feedback_title"
@@ -619,3 +638,38 @@ msgstr "Nikmati mengatur screenshot? Bagikan sekarang!"
 msgctxt "dialogue_ocr_share_description"
 msgid "Find screenshot-to-text useful? Share it now!"
 msgstr "Apakah screenshot berguna? Bagikan sekarang!"
+
+#. String displayed to inform users search is performing
+msgctxt "search_transition_searching"
+msgid "Searching…"
+msgstr ""
+
+msgctxt "search_error_title_noresult"
+msgid "No results found"
+msgstr ""
+
+msgctxt "search_error_content_try"
+msgid "Try another word"
+msgstr ""
+
+#. Parameter %1$d is the quantity of matched search results, i.e. 100 results
+#, c-format
+msgctxt "search_separator_results"
+msgid "%1$d results"
+msgstr ""
+
+#. String displayed to inform users the progress of text recognition.
+#. Parameter %1$d is the quantity of screenshot files, i.e. 100 screenshots
+#. remaining
+#, c-format
+msgctxt "search_transition_progress"
+msgid "%1$d screenshots remaining…"
+msgstr ""
+
+#. String displayed to provide more details when text recognition is done
+msgctxt "search_transition_content_searchable"
+msgid ""
+"We’re making all screenshots searchable. You can soon type to search "
+"words within screenshots!"
+msgstr ""
+
