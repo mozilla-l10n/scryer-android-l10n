@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-01-22 15:36+0800\n"
-"PO-Revision-Date: 2019-01-16 02:25+0000\n"
-"Last-Translator: delphine <dlebedel@mozilla.com>\n"
+"PO-Revision-Date: 2019-01-24 13:22+0000\n"
+"Last-Translator: Lidya Christina <id.lidya@gmail.com>\n"
 "Language-Team: id <LL@li.org>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -610,9 +610,7 @@ msgstr ""
 
 #. String displayed to inform users recognition costs more battery
 msgctxt "onboarding_search_caption_battery"
-msgid ""
-"To make this happen, we’ll recognize your screenshot first. It may "
-"consume more battery, but it won’t take long!"
+msgid "To make this happen, we’ll recognize your screenshot first. It may consume more battery, but it won’t take long!"
 msgstr ""
 
 #. Parameter %1$s is the app name, i.e. Firefox ScreenshotGo
@@ -650,7 +648,7 @@ msgstr ""
 
 msgctxt "search_error_content_try"
 msgid "Try another word"
-msgstr ""
+msgstr "Coba kata lain"
 
 #. Parameter %1$d is the quantity of matched search results, i.e. 100 results
 #, c-format
@@ -668,8 +666,5 @@ msgstr ""
 
 #. String displayed to provide more details when text recognition is done
 msgctxt "search_transition_content_searchable"
-msgid ""
-"We’re making all screenshots searchable. You can soon type to search "
-"words within screenshots!"
+msgid "We’re making all screenshots searchable. You can soon type to search words within screenshots!"
 msgstr ""
-
