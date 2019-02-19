@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-22 15:36+0800\n"
+"POT-Creation-Date: 2019-02-19 17:52+0800\n"
 "PO-Revision-Date: 2019-01-29 09:59+0000\n"
 "Last-Translator: Fauzan Alfi <fauzanalfi@mozilla.web.id>\n"
 "Language-Team: id <LL@li.org>\n"
@@ -497,9 +497,14 @@ msgctxt "onboarding_storage_title_welcome"
 msgid "Welcome to %1$s"
 msgstr "Selamat datang di %1$s"
 
+#, fuzzy
 msgctxt "onboarding_storage_content_permission"
-msgid "To help you organize and find your screenshots better, we’ll need your permission to access your storage."
+msgid "To help you organize and find your screenshots better, we’ll need your permission to access phone storage."
 msgstr "Untuk membantu Anda mengelola dan menemukan cuplikan layar dengan lebih baik, kami memerlukan izin Anda untuk mengakses penyimpanan."
+
+msgctxt "onboarding_storage_caption_duplicates"
+msgid "*Don’t worry, this won’t duplicate files."
+msgstr ""
 
 #. The string displays if the system autogrants storage permission. Parameter
 #. %1$s is the app name, i.e. Firefox ScreenshotGo
@@ -588,12 +593,13 @@ msgstr "Terima kasih atas umpan balik Anda!"
 
 #. String displayed with an illustration to introduce a new feature
 msgctxt "onboarding_ocr_title_more"
-msgid "Do more with screenshots"
+msgid "Take Action on Text"
 msgstr "Lakukan lebih banyak dengan tangkapan layar"
 
 #. String displayed to give examples of what the new feature can do
+#, fuzzy
 msgctxt "onboarding_ocr_content_examples"
-msgid "Look up products, copy coupon codes, and share quotes in your screenshots"
+msgid "Search the web for products, copy coupon codes, and share quotes in your screenshots."
 msgstr "Cari produk, salin kode kupon, dan bagikan penawaran di tangkapan layar Anda"
 
 #. Onboarding: strings displayed with an illustration to introduce users the
