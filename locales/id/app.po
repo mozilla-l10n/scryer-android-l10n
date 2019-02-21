@@ -592,6 +592,7 @@ msgid "Thanks for your feedback!"
 msgstr "Terima kasih atas umpan balik Anda!"
 
 #. String displayed with an illustration to introduce a new feature
+#, fuzzy
 msgctxt "onboarding_ocr_title_more"
 msgid "Take Action on Text"
 msgstr "Lakukan lebih banyak dengan tangkapan layar"
