@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-22 15:36+0800\n"
+"POT-Creation-Date: 2019-02-19 17:52+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -507,7 +507,11 @@ msgstr ""
 msgctxt "onboarding_storage_content_permission"
 msgid ""
 "To help you organize and find your screenshots better, we’ll need your "
-"permission to access your storage."
+"permission to access phone storage."
+msgstr ""
+
+msgctxt "onboarding_storage_caption_duplicates"
+msgid "*Don’t worry, this won’t duplicate files."
 msgstr ""
 
 #. The string displays if the system autogrants storage permission. Parameter
@@ -603,12 +607,14 @@ msgstr ""
 
 #. String displayed with an illustration to introduce a new feature
 msgctxt "onboarding_ocr_title_more"
-msgid "Do more with screenshots"
+msgid "Take Action on Text"
 msgstr ""
 
 #. String displayed to give examples of what the new feature can do
 msgctxt "onboarding_ocr_content_examples"
-msgid "Look up products, copy coupon codes, and share quotes in your screenshots"
+msgid ""
+"Search the web for products, copy coupon codes, and share quotes in your "
+"screenshots."
 msgstr ""
 
 #. Onboarding: strings displayed with an illustration to introduce users the
