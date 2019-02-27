@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-02-19 17:52+0800\n"
-"PO-Revision-Date: 2019-01-29 09:59+0000\n"
+"PO-Revision-Date: 2019-02-27 15:17+0000\n"
 "Last-Translator: Fauzan Alfi <fauzanalfi@mozilla.web.id>\n"
 "Language-Team: id <LL@li.org>\n"
 "Language: id\n"
@@ -497,14 +497,13 @@ msgctxt "onboarding_storage_title_welcome"
 msgid "Welcome to %1$s"
 msgstr "Selamat datang di %1$s"
 
-#, fuzzy
 msgctxt "onboarding_storage_content_permission"
 msgid "To help you organize and find your screenshots better, we’ll need your permission to access phone storage."
-msgstr "Untuk membantu Anda mengelola dan menemukan cuplikan layar dengan lebih baik, kami memerlukan izin Anda untuk mengakses penyimpanan."
+msgstr "Untuk membantu Anda mengelola dan menemukan cuplikan layar dengan lebih baik, kami memerlukan izin Anda untuk mengakses penyimpanan ponsel."
 
 msgctxt "onboarding_storage_caption_duplicates"
 msgid "*Don’t worry, this won’t duplicate files."
-msgstr ""
+msgstr "*Jangan khawatir, ini tidak akan menduplikasi berkas."
 
 #. The string displays if the system autogrants storage permission. Parameter
 #. %1$s is the app name, i.e. Firefox ScreenshotGo
@@ -592,16 +591,14 @@ msgid "Thanks for your feedback!"
 msgstr "Terima kasih atas umpan balik Anda!"
 
 #. String displayed with an illustration to introduce a new feature
-#, fuzzy
 msgctxt "onboarding_ocr_title_more"
 msgid "Take Action on Text"
-msgstr "Lakukan lebih banyak dengan tangkapan layar"
+msgstr "Lakukan Aksi pada Teks"
 
 #. String displayed to give examples of what the new feature can do
-#, fuzzy
 msgctxt "onboarding_ocr_content_examples"
 msgid "Search the web for products, copy coupon codes, and share quotes in your screenshots."
-msgstr "Cari produk, salin kode kupon, dan bagikan penawaran di tangkapan layar Anda"
+msgstr "Cari produk di Web, salin kode kupon, dan bagikan kutipan di tangkapan layar Anda."
 
 #. Onboarding: strings displayed with an illustration to introduce users the
 #. new search feature, Refer to UX spec 5-1
