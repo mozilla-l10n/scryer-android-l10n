@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-19 17:52+0800\n"
+"POT-Creation-Date: 2019-03-06 12:06+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -612,9 +612,7 @@ msgstr ""
 
 #. String displayed to give examples of what the new feature can do
 msgctxt "onboarding_ocr_content_examples"
-msgid ""
-"Search the web for products, copy coupon codes, and share quotes in your "
-"screenshots."
+msgid "Copy the text in your screenshot for web search, share or more."
 msgstr ""
 
 #. Onboarding: strings displayed with an illustration to introduce users the
