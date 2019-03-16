@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-03-13 11:57+0800\n"
-"PO-Revision-Date: 2019-03-07 09:11+0000\n"
+"PO-Revision-Date: 2019-03-16 14:06+0000\n"
 "Last-Translator: Fauzan Alfi <fauzanalfi@mozilla.web.id>\n"
 "Language-Team: id <LL@li.org>\n"
 "Language: id\n"
@@ -308,21 +308,19 @@ msgstr "Lewati semua"
 #. taking a screenshot
 msgctxt "dialogue_stopasking_title_stop"
 msgid "Stop asking to sort?"
-msgstr ""
+msgstr "Berhenti bertanya untuk diurutkan?"
 
 #. Dialogue: String displayed to explain when users stop prompting sorting
 #. panel and the placeholder %1$s is "GO" from the product name
 #, c-format
 msgctxt "dialogue_stopasking_content_stop"
-msgid ""
-"%1$s button will save all your screenshots to the Unsorted collection. "
-"This can be configured in Settings."
-msgstr ""
+msgid "%1$s button will save all your screenshots to the Unsorted collection. This can be configured in Settings."
+msgstr "Tombol %1$s akan menyimpan semua cuplikan layar Anda ke dalam koleksi Belum Diurutkan. Hal ini bisa diatur dalam Setelan."
 
 #. String to keep prompting sorting panel after taking a screenshot
 msgctxt "dialogue_stopasking_action_alwaysask"
 msgid "Always ask"
-msgstr ""
+msgstr "Selalu tanya"
 
 #. Menu: strings displayed when triggering the overflow menu in the top-right
 #. corner of each view
@@ -396,12 +394,12 @@ msgstr "Tidak, terima kasih"
 #. String displayed to ask users to save or delete the screenshot
 msgctxt "sheet_saveordelete_content_screenshot"
 msgid "Save or delete this screenshot?"
-msgstr ""
+msgstr "Simpan atau hapus cuplikan layar ini?"
 
 #. String to save the screenshot
 msgctxt "sheet_saveordelete_action_save"
 msgid "Save"
-msgstr ""
+msgstr "Simpan"
 
 #. Snackbar: strings to provide confirmations for user’s actions
 msgctxt "snackbar_disable"
@@ -443,15 +441,13 @@ msgctxt "settings_list_fab"
 msgid "Use %1$s button"
 msgstr "Pakai tombol %1$s"
 
-#, fuzzy
 msgctxt "settings_list_sorting"
 msgid "Ask to sort"
 msgstr "Tanyakan untuk menyortir"
 
-#, fuzzy
 msgctxt "settings_detail_sorting"
 msgid "After you take a screenshot, always ask which collection to put it in."
-msgstr "Selalu tanyakan untuk menambah cuplikan layar ke koleksi"
+msgstr "Setelah Anda mengambil cuplikan layar, selalu tanyakan akan dimasukkan ke koleksi yang mana."
 
 msgctxt "settings_list_usagedata"
 msgid "Send usage data"
